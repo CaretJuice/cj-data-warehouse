@@ -74,5 +74,7 @@ models:
           +enabled: true 
         stg_ga4__event_purchase:
           +enabled: true
+        stg_ga4__event_purchase_deduplicated:
+          +enabled: true
         stg_ga4__event_view_item:
           +enabled: true 

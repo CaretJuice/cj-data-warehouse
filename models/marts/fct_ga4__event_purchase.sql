@@ -55,7 +55,7 @@ select
     , tax 
     , shipping 
     , affiliation 
-from {{ ref('stg_ga4__event_purchase') }}
+from {{ ref('stg_ga4__event_purchase_deduplicated') }}
 {% if is_incremental() %}
     where event_date_dt in ({{ partitions_to_replace | join(',') }})
 {% endif %}
