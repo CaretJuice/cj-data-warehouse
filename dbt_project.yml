@@ -61,6 +61,9 @@ models:
   cj:
     marts:
       +schema: analytics
+    staging:
+      stg_ga4__events:
+        +enabled: false 
   ga4:
     marts:
       +schema: analytics
