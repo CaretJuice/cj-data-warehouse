@@ -15,7 +15,7 @@
         partitions = partitions_to_replace
     )
 }}
-
+-- hello mom
 select 
     event_date_dt 
     , event_timestamp 
